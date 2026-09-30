@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Glowing backdrop hexagon/shield badge -->
+    <path
+        android:pathData="M54,23 L79,37 L79,67 L54,81 L29,67 L29,37 Z"
+        android:strokeWidth="2.5"
+        android:strokeColor="#00FF66"
+        android:fillColor="#1A00FF66" />
+
+    <!-- Inner tech accent rings -->
+    <path
+        android:pathData="M54,29 L73,40 L73,64 L54,75 L35,64 L35,40 Z"
+        android:strokeWidth="1.2"
+        android:strokeColor="#4D00FF66"
+        android:fillColor="#00000000" />
+
+    <!-- Audio waveform bars on sides -->
+    <path
+        android:fillColor="#00FF66"
+        android:pathData="M39,48h2.5v12h-2.5z M43,44h2.5v20h-2.5z M63,44h2.5v20h-2.5z M67,48h2.5v12h-2.5z" />
+
+    <!-- Center Download Arrow & Musical Note Hybrid -->
+    <!-- Downward arrow shaft and head -->
+    <path
+        android:pathData="M51.5,36 L56.5,36 L56.5,55 L62,55 L54,66 L46,55 L51.5,55 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="54"
+                android:startY="36"
+                android:endX="54"
+                android:endY="66"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#E0FFE5" />
+                <item android:offset="0.6" android:color="#00FF66" />
+                <item android:offset="1.0" android:color="#00CC44" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Base cyber sound disc / note node -->
+    <path
+        android:pathData="M48,68 h12 v2.5 h-12 z M51,72 h6 v1.5 h-6 z"
+        android:fillColor="#00FF66" />
+
+</vector>

@@ -1,0 +1,6 @@
+{
+  "name": "Underground YouTube to MP3",
+  "description": "Convert YouTube videos to high-quality MP3 audio and download them directly with a cyberpunk Matrix terminal interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
